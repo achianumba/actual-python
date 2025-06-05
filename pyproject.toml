@@ -1,0 +1,14 @@
+[project]
+name = "actual-python"
+version = "0.1.0"
+description = "Actually Learn to Develop Software using Python"
+readme = "README.md"
+license = "LICENSE"
+requires-python = ">=3.10"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.6.14",
+]
