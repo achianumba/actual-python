@@ -23,3 +23,9 @@ Although there are Python-specific code editors out in the wild, it's sufficient
 6. Click `Install` on the `Ready to install` window.
 
     ![vscode install](../assets/images/install-vscode.png)
+
+7. Launch Visual Studio Code after the installation completes.
+8. Click the extensions button on the left side bar, type `python` into the side bar, 
+    and install the `Python` **extension by Microsoft**.
+
+    ![install python extension](../assets/images/install-python-extension.png)
