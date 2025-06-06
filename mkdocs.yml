@@ -1,16 +1,28 @@
 site_name: Actual Python
-site_name: Notes
 
 dev_addr: '127.0.0.1:8500'
+
+repo_url: https://github.com/achianumba/actual-python
+repo_name: GitHub
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025 Arinze Chianumba
 
 # exclude_docs: |
 #   *.py
 #   .gitignore
   # /requirements.txt
-  # /venv
+# /venv:working_dir:
 
 theme:
   name: material
+
+  features:
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - navigation.footer
+    - content.action.edit
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -39,9 +51,19 @@ markdown_extensions:
   smarty: {}
   sane_lists: {}
   admonition: {}
-
-lang: en_US
+  # git-revision-date-localized:
+  #   enabled: true
+  #   enable_creation_date: true
+  #   type: date 
+  # git-committers:
+  #   enabled: true
+  #   branch: main
+  #   repository: achianumba/actual-python
+  # git-authors: {}
 
 nav:
-  - Actual Python: index.md
-  - Setup your Python development environment: setup/index.md
+  - 'Getting Started': index.md
+  - Setup: 
+    - setup/index.md
+    - 'Install Python': setup/install-python.md
+    - 'Install a Code Editor': 'setup/install-code-editor.md'
