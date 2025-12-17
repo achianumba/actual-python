@@ -63,7 +63,7 @@ Programs written in low-level languages are usually very powerful, fast, and eff
 
 ### High-level Programming Languages
 
-While low-level programming languages are hard to work with, people can easily read, write, and maintain programs written in high-level programming languages. This is so because, unlike high-level programming languages, low-level programming languages:
+While low-level programming languages are hard to work with, people can easily read, write, and maintain programs written in high-level programming languages. This is so because, unlike low-level programming languages, high-level programming languages:
 
 - Are less verbose
 - Have a human-like vocabulary:
